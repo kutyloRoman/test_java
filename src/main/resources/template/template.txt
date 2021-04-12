@@ -1,0 +1,4 @@
+To: #{to}
+Subject: #{subject}
+Text: Dear, #{name} #{surname},
+#{text}
