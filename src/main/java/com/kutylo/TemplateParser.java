@@ -4,8 +4,16 @@ import java.util.Map;
 
 public class TemplateParser {
 
-  private final TemplateReplacer templateReplacer = new TemplateReplacer();
+  private TemplateReplacer templateReplacer;
   private final String template = Utils.getResourceFileAsString("template/template.txt");
+
+//  public TemplateParser() {
+//    this.templateReplacer = new TemplateReplacer();
+//  }
+
+  public TemplateParser(TemplateReplacer templateReplacer) {
+    this.templateReplacer = templateReplacer;
+  }
 
   public String parseTemplate(Map<String, String> userInputs) {
     String parsedTemplate = templateReplacer.replaceTags(userInputs, template);

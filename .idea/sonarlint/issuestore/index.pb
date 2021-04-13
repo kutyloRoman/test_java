@@ -19,3 +19,7 @@ X
 (src/test/java/TemplateGeneratorTest.java,8\4\8498656d362f7fffde55a53acefa8f5032d8ce5b
 R
 "src/test/java/ValidResultTest.java,c\3\c31fa0dd240a24d368df7d8e5c122ef1c89e8088
+a
+1src/test/java/WriteTestResultToFileExtension.java,2\5\253a69f48d77ea2eb7206c0fdf6392f91dd3a9e3
+a
+1src/test/java/PlaceholderValueInputUtilsTest.java,1\5\15bd6b41b8e4054a85f6ccb7d21114cf8c6b6602

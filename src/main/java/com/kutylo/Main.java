@@ -12,7 +12,7 @@ public class Main {
     } else {
       userInputs = PlaceholderValueInputUtils.readInputFromConsole();
     }
-    TemplateParser templateParser = new TemplateParser();
+    TemplateParser templateParser = new TemplateParser(new TemplateReplacer());
     String parsedMail = templateParser.parseTemplate(userInputs);
   }
 }
